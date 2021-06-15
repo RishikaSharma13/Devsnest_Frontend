@@ -13,3 +13,39 @@
 p{
     font-size: 20px;
 }
+.border{
+    width:100%;
+    padding: 5px;
+    background-color: rgb(200, 200, 200);
+    border: 1px solid black;
+    font-weight: bold;
+}
+ul{ 
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+table{
+    width:auto;
+    
+
+}
+th{
+    text-align:left;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+}
+tr:nth-child(even){
+    background-color: #fff;
+}
+tr:nth-child(odd){
+    background-color: #ddd;
+}
+h2{
+    float:right;
+}
